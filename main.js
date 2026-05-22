@@ -24,7 +24,7 @@
       const open = header.classList.toggle('header--open');
       menuToggle.setAttribute('aria-expanded', open);
     });
-    document.querySelectorAll('.header__links a').forEach(a => {
+    document.querySelectorAll('.header__links a, .header__nav-cta a').forEach(a => {
       a.addEventListener('click', closeMenu);
     });
     /* Close on outside click */
