@@ -43,8 +43,8 @@
 
   /* ── Theme ───────────────────────────────────────────────── */
   function getTheme() {
-    return localStorage.getItem('rx-theme') ||
-      (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    // Default to dark; only honor an explicit saved preference.
+    return localStorage.getItem('rx-theme') || 'dark';
   }
   function applyTheme(t) {
     document.documentElement.setAttribute('data-theme', t);

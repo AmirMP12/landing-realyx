@@ -1115,6 +1115,29 @@ a:focus-visible, button:focus-visible {
 .footer__bottom-inner   { flex-direction: column; align-items: flex-start; }
 .api-row                { flex-wrap: wrap; }
 
+/* ── Hero on single-column layouts (tablet, mobile & "desktop site"
+      on phones): center content and remove the tall 100vh gap ──── */
+@media (max-width: 1023px) {
+  .hero {
+    /* Drop the full-viewport height so content sits just under the
+       header instead of being vertically centered with a big gap.
+       This also covers phones requesting the desktop site (~980px). */
+    min-height: auto;
+    align-items: flex-start;
+    padding: calc(var(--hh) + 2.5rem) 0 3.5rem;
+  }
+  .hero__inner { gap: 2.5rem; }
+  .hero__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__eyebrow { justify-content: center; }
+  .hero__sub { margin-left: auto; margin-right: auto; }
+  .hero__ctas { justify-content: center; }
+}
+
 /* ── Mobile (< 768px) ───────────────────────────────────────── */
 @media (max-width: 767px) {
   /* Tight container padding */
