@@ -4,7 +4,7 @@ The marketing site for **Realyx**, a decentralized perpetual futures DEX for Rea
 
 > **This repo is the landing page only.** The protocol, smart contracts, keeper, and app live in [`realyx-perp-conflux`](https://github.com/AmirMP12/realyx-perp-conflux).
 
-🔗 **Live:** [realyx.example](https://realyx.example/)
+🔗 **Live:** [realyx.xyz](https://realyx.xyz/)
 
 ---
 
@@ -172,7 +172,7 @@ MIT — see the protocol repo for the full text.
 
 ## Links
 
-- App: [app.realyx.example](https://app.realyx.example/)
+- App: [app.realyx.xyz](https://app.realyx.xyz/)
 - Protocol & docs: [github.com/AmirMP12/realyx-perp-conflux](https://github.com/AmirMP12/realyx-perp-conflux)
 - X: [@Realyx_Perp](https://x.com/Realyx_Perp)
 - Telegram channel: [t.me/Real_yx](https://t.me/Real_yx)
